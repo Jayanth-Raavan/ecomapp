@@ -1,0 +1,31 @@
+<div class="seller-auth" *ngIf="!accountHave">
+    <div class="signing">
+        <h1>Seller Sign-Up</h1>
+        <form #sellerSignUp="ngForm" (ngSubmit)="signUp(sellerSignUp.value)" class="common-form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Name" ngModel>
+            <input class="form-input" type="password" name="password" id="password" placeholder="Enter Password" ngModel>
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Email" ngModel>
+            <button class=" form-button">SignUp</button>
+        </form>
+        <div class="haveAccount">
+            <span class="text-center">Already have account? Login<a class="text-decoration-underline" (click)="haveAccount()"> here</a></span>
+        </div>
+    </div>
+</div>
+<!-- sign in -->
+<div *ngIf="accountHave">
+    <div class="signing">
+        <h1>Seller SignIn</h1>
+        <div class="errorMsg text-center">
+            <span class="text-danger">{{displayError}}</span>
+        </div>
+        <form #sellerSignIn="ngForm" (ngSubmit)="signIn(sellerSignIn.value)" class="common-form">
+            <input class="form-input" type="email" name="email" id="email" placeholder="Enter Email" ngModel>
+            <input class="form-input" type="password" name="password" id="password" placeholder="Enter Password" ngModel>
+            <button class=" form-button">SignIn</button>
+        </form>
+        <div class="haveAccount">
+            <span class="text-center">Don't have account? SignUp <a (click)="haveAccount()" class="text-decoration-underline"> here</a></span>
+        </div>
+    </div>
+</div>

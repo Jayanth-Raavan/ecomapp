@@ -1,0 +1,100 @@
+<div class="wrapper" [ngSwitch]="menuType">
+  <div class="userSignIn" *ngSwitchCase="'signIn'">
+    <h1>User SignIn</h1>
+    <p class="message-p"><span>{{message}}</span></p>
+    <form
+      class="common-form"
+      #authSignIn="ngForm"
+      (ngSubmit)="SignIn(authSignIn.value)"
+    >
+      <input
+        class="form-input"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter User Email"
+        ngModel
+        email
+        #email="ngModel"
+        required
+      />
+      <p class="invalid-input">
+        <span *ngIf="email.invalid && email.touched"
+          >Please Enter Valid Email Id</span
+        >
+      </p>
+      <input
+        class="form-input"
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter Password"
+        ngModel
+        #password="ngModel"
+        required
+        minlength="3"
+        maxLength="16"
+      />
+      <p class="invalid-input">
+        <span *ngIf="password.invalid && password.touched"
+          >Please Enter Valid Password</span
+        >
+      </p>
+      <button class="form-button" [disabled]="authSignIn.invalid">SignIn</button>
+      <div class="haveAccount">
+        <span class="text-center"
+          >Don't have account?
+          <a class="text-decoration-underline" (click)="haveAccount()">
+            SignUp here</a
+          ></span
+        >
+      </div>
+    </form>
+  </div>
+  <!--  -->
+  <div class="userSignUp" *ngSwitchCase="'default'">
+    <h1>User SignUp</h1>
+    <span class="message-p"></span>
+    <form
+      class="common-form"
+      #authSignUp="ngForm"
+      (ngSubmit)="SignUp(authSignUp.value)"
+    >
+      <input
+        class="form-input"
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter User Name"
+        ngModel
+      />
+      <input
+        class="form-input"
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter User Email"
+        ngModel
+      />
+      <input
+        class="form-input"
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter Password"
+        ngModel
+      />
+      <button class="form-button">SignUp</button>
+      <div class="haveAccount">
+        <span class="text-center"
+          >Already have account?<a
+            class="text-decoration-underline"
+            (click)="haveAccount()"
+          >
+            Login here</a
+          ></span
+        >
+      </div>
+    </form>
+  </div>
+</div>

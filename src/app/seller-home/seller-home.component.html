@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="center text-center">
+        <span class="text-success ">{{deleteMessage}}</span>
+    </div>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>IMAGE</th>
+                <th>PRICE</th>
+                <th>COLOR</th>
+                <th>CATEGORY</th>
+                <th class="w-25">DESCRIPTION</th>
+                <th class="w-20">ACTION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let list of productList">
+                <td>{{list.name}}</td>
+                <td><img src="{{list.imageUrl}}" alt="Image"></td>
+                <td>{{list.price}}</td>
+                <td>{{list.colour}}</td>
+                <td>{{list.category}}</td>
+                <td>{{list.description}}</td>
+                <td><a routerLink="/seller-update-product/{{list.id}}"><fa-icon class="btn btn-info me-2" [icon]="penIcon"></fa-icon></a> <fa-icon (click)="deleteProduct(list.id)" class="btn btn-danger" [icon]="trashIcon"></fa-icon></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

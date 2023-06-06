@@ -1,0 +1,28 @@
+<div class="wrapper container">
+    <div class="row gx-0 productData" *ngIf="productData">
+        <div class="col-sm-3 mr-3">
+            <img class="product-img" src="{{productData.imageUrl}}" alt="">
+        </div>
+        <div class="col-sm-6 details ml-3">
+            <h1>{{productData.name}}</h1>
+            <h3>Price : {{productData.price}}</h3>
+            <div class="d-flex">
+                <h5>Color : </h5>
+                <span [style.backgroundColor]="productData.colour" class="product-color"></span>
+            </div>
+            <h6>Category : {{productData.category}}</h6>
+            <h6>Description : {{productData.description}}</h6>
+            <button class="mr-2 form-button" *ngIf="productQuantity > 0" (click)="buyNow()">Buy Now</button>
+            <button class="ml-2 form-button" *ngIf="!removeCart && productQuantity > 0" (click)="AddToCart()">Add to cart</button>
+            <button class="ml-2 form-button" *ngIf="removeCart" (click)="removeToCart(productData.id)">Remove from cart</button>
+            <div class="quantity-group">
+                <button class="form-button" (click)="quantityControl('min')">-</button>
+                <input type="text" value="{{productQuantity}}">
+                <!-- <input type="text" value="{{itemsIncart}}"> -->
+
+                <button class="form-button" (click)="quantityControl('plus')">+</button>
+            </div>
+
+        </div>
+    </div>
+</div>

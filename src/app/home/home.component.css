@@ -1,0 +1,18 @@
+.carousel-img{
+    object-fit: contain;
+    height: 600px;
+    margin: auto;
+    width: 100%;
+}
+hr{
+    color: blueviolet;
+}
+.card{
+    border: 1px solid blueviolet;
+}
+.card-footer{
+    background-color: rgba(124, 9, 233,0.1);
+}
+.card-footer:last-child{
+    border: none;
+}

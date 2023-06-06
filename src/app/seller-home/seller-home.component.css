@@ -1,0 +1,16 @@
+table td, table th{
+    border: 1px solid blueviolet;
+    padding: 20px;
+    vertical-align: middle;
+}
+thead th{
+    color: blueviolet;
+}
+td img{
+    width: 100%;
+    height: 120px;
+}
+button{
+    width: 75px;
+    margin: 8px;
+}

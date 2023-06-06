@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: sans-serif;
+}
+h1{
+  text-align: center;
+    color: blueviolet;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.container{
+    margin: 1% 6.5%;
+}
+.common-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;padding-top: 15px;
+  }
+  .form-input {
+    height: 35px;
+    margin-bottom: 20px;
+    border: 1px solid blueviolet;
+    padding-left: 15px;
+    color: blueviolet;
+    background-color: rgba(138, 43, 226,0.07);
+  }
+  .form-button {
+    height: 35px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    cursor: pointer;
+    background-color: rgba(138, 43, 226,0.07);
+
+  }
+  .productAction{
+    text-align: center;
+    color: green;
+  }
+  .message-p{
+    margin: 8px 0px;
+  }
+  .carousel{
+    background-color: rgba(138, 43, 226, 0.005);
+  }
+  .carousel-caption{
+    background-color: #00000082;
+    border-radius: 5px;
+  }
+  .carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #00000082;
+  }
+  /* .carousel-indicators{
+    width: 10px;
+    height: 10px;
+  } */
+  .carousel-indicators button{
+    border-radius: 50%;
+  }
+  .carousel-indicators [data-bs-target]{
+    width: 8px;
+    height: 8px;
+    margin: 0 8px;
+  }
+  hr{
+    margin: 5px 0px !important;
+  }
+  p {
+    margin-top: 0 !important;
+    margin-bottom: 8px !important;
+}
+.card-image{
+  height: 211px;
+}
+.haveAccount{
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.haveAccount span a{
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.invalid-input{
+  font-size: 12px;
+  margin-top: -20px;
+  color: red;
+}
+.message-p{
+  text-align: center;
+  color: red;
+}
+button:disabled{
+  cursor: not-allowed;
+}

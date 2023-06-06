@@ -1,0 +1,220 @@
+{
+  "seller": [
+    {
+      "name": "Jayanth",
+      "password": "Jay@55",
+      "email": "jay@raavan.com",
+      "id": 1
+    },
+    {
+      "name": "Admin",
+      "password": "Admin@55",
+      "email": "admin@user.com",
+      "id": 2
+    },
+    {
+      "name": "raavan",
+      "password": "raavan55",
+      "email": "raavan@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "jdd",
+      "password": "ddc",
+      "email": "j@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Jayanth Raavan",
+      "password": "Jay@55",
+      "email": "Jayanth@gmail.com",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "Redmi Note 12 5G ",
+      "price": "19999",
+      "colour": "Blue",
+      "category": "Android Mobile",
+      "description": "Redmi Note 12 5G Mystique Blue 6GB RAM 128GB ROM",
+      "imageUrl": "https://m.media-amazon.com/images/I/81MZRUuHJIL._SX679_.jpg",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Casio Edifice Analog-Digital",
+      "colour": "Black",
+      "category": "Watch",
+      "description": "Casio Edifice Analog-Digital Black Dial Men's Watch-ECB-2000DC-1ADF",
+      "imageUrl": "https://m.media-amazon.com/images/I/612EBmRyh7L._UL1100_.jpg",
+      "price": 19995
+    },
+    {
+      "id": 3,
+      "name": "Campus Shoes",
+      "colour": "Black",
+      "category": "Shoes",
+      "description": "Campus Men's North Plus Running Shoes",
+      "imageUrl": "https://m.media-amazon.com/images/I/71p+ffg6+lL._UY695_.jpg",
+      "price": 1299
+    },
+    {
+      "id": 4,
+      "name": "Dell Vostro",
+      "colour": "Black",
+      "category": "Laptop",
+      "description": "Dell Vostro 3420 Laptop,12th Gen Intel Core i5-1235U, 8GB & 512GB SSD",
+      "imageUrl": "https://m.media-amazon.com/images/I/617Ob9YOSSL._SY450_.jpg",
+      "price": 54990
+    },
+    {
+      "id": 5,
+      "name": "Acer",
+      "colour": "Black",
+      "category": "TV",
+      "description": "Acer 139 cm (55 inches) I Series 4K Ultra HD Android Smart LED TV AR55AR2851UDFL (Black)",
+      "imageUrl": "https://m.media-amazon.com/images/I/71RNJ5AGNBL._SX450_.jpg",
+      "price": 32999
+    },
+    {
+      "id": 6,
+      "name": "LG",
+      "colour": "White",
+      "category": "AC",
+      "description": "LG 1.5 Ton 3 Star AI DUAL Inverter Split AC",
+      "imageUrl": "https://m.media-amazon.com/images/I/31lipN6pTwL._SY445_SX342_QL70_FMwebp_.jpg",
+      "price": 36990
+    },
+    {
+      "id": 7,
+      "name": "boAt Rockerz",
+      "colour": "Gold",
+      "category": "Bluetooth",
+      "description": "boAt Rockerz 450 Bluetooth On Ear Headphones with Mic",
+      "imageUrl": "https://m.media-amazon.com/images/I/610bnYBwzmL._SY355_.jpg",
+      "price": 1499
+    },
+    {
+      "id": 8,
+      "name": "Ceat Milaze",
+      "colour": "Black",
+      "category": "Ceat Milaze 90/100-10 53J Tubeless Scooter Tyre,Front or Rear",
+      "description": "Ceat Milaze 90/100-10 53J Tubeless Scooter Tyre,Front or Rear",
+      "imageUrl": "https://m.media-amazon.com/images/I/418avdt27-L._SX300_SY300_QL70_FMwebp_.jpg",
+      "price": 1709
+    },
+    {
+      "id": 9,
+      "name": "AN GARMENTS",
+      "colour": "Blue",
+      "category": "Blazer",
+      "description": "AN GARMENTS Designer Men's Slim Fit Notched Lapel Single Breasted Solid Blazer",
+      "imageUrl": "https://m.media-amazon.com/images/I/71DA9bcDIqL._UX522_.jpg",
+      "price": 1259
+    },
+    {
+      "id": 10,
+      "name": "The Tinted",
+      "colour": "Blue",
+      "category": "Eye Glasses",
+      "description": "The Tinted Story Original Cat-Eye Blue Ray Eyeglasses, R, Women (Blue)",
+      "imageUrl": "https://m.media-amazon.com/images/I/51dS0PSvq0L._UX679_.jpg",
+      "price": 2079
+    },
+    {
+      "id": 11,
+      "name": "Lymio",
+      "colour": "Brown",
+      "category": "Shirt",
+      "description": "Lymio Casual Shirt for Men",
+      "imageUrl": "https://m.media-amazon.com/images/I/71b6grXX5sL._UY550_.jpg",
+      "price": 349
+    },
+    {
+      "id": 12,
+      "name": "Shining Diva",
+      "colour": "Pink",
+      "category": "Ornaments",
+      "description": "Shining Diva Ornaments",
+      "imageUrl": "https://m.media-amazon.com/images/I/71ii1ft1drL._UY500_.jpg",
+      "price": 425
+    },
+    {
+      "name": "Lakme",
+      "price": "1599",
+      "colour": "Orange",
+      "category": "Clay Mask",
+      "description": " Vitamin C+ clay Mask",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/0014/3514/0183/products/vitc_Refresh_GlowKit_640x.jpg?v=1681716096",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "name": "Jayanth Raavan",
+      "email": "jayanth@raavan.com",
+      "password": "Jay@55",
+      "id": 1
+    },
+    {
+      "name": "Joe",
+      "email": "joe@biden.com",
+      "password": "Joe@55",
+      "id": 2
+    },
+    {
+      "name": "Teja",
+      "email": "tejashiny@gmail.com",
+      "password": "Teja@55",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "email": "bruce@banner.com",
+      "password": "Bruce@55",
+      "id": 4
+    },
+    {
+      "name": "Iron Man",
+      "email": "iron@man.com",
+      "password": "Iron@55",
+      "id": 5
+    },
+    {
+      "name": "Avengers",
+      "email": "avengrs@gmail.com",
+      "password": "Avenger@55",
+      "id": 6
+    },
+    {
+      "name": "Danie",
+      "email": "dany@daniel.com",
+      "password": "Dany@55",
+      "id": 7
+    },
+    {
+      "name": "Sunny Leone",
+      "email": "sunny@leone.com",
+      "password": "Sunny@55",
+      "id": 8
+    },
+    {
+      "name": "Radhe Shyam",
+      "email": "radha@shyam.com",
+      "password": "Radha@55",
+      "id": 9
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "sunny@leone.com",
+      "address": "dmsmdmds",
+      "contact": "353656353",
+      "totalPrice": 20099,
+      "userId": 8,
+      "id": 1
+    }
+  ]
+}
